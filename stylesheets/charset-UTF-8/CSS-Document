@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+body {
+	margin:auto;
+	width: auto;
+	font-family: 'Gotham';
+	background-color:white;
+	}
+
+
+.nav a:hover { 
+	color:black; 
+	background: white; 
+	}
+
+.nav a{
+	float: right;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	-o-transition:color .5s ease-out, background .5s ease-in;
+  	-ms-transition:color .5s ease-out, background .5s ease-in;
+  	-moz-transition:color .5s ease-out, background .5s ease-in;
+  	-webkit-transition:color .5s ease-out, background .5s ease-in;
+  	transition:color .5s ease-out, background .5s ease-in;
+	}
+
+.nav img {
+	margin-left: 10px;
+	margin-top:3px;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	}
+	
+.nav p {
+	color: white;
+	float: left;
+	margin: 20px;
+	margin-left: 70px;
+	}
+	
+.nav b {
+	color: #40e0d0;
+	font-family:'Armata';
+	}
+	
+.nav {
+	background-color:black;
+	height: 60px;
+	}
+
+	
+.introtext {
+ 	float: none;
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	} 	
+	
+	
+	
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+	-o-transition:color .5s ease-out, background .5s ease-in;
+  	-ms-transition:color .5s ease-out, background .5s ease-in;
+  	-moz-transition:color .5s ease-out, background .5s ease-in;
+  	-webkit-transition:color .5s ease-out, background .5s ease-in;
+  	transition:color .5s ease-out, background .5s ease-in;
+  	}
+  	
+.button:hover { 
+	color:black; 
+	background: white; 
+	}
+	
+@keyframes slidy {
+
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { 
+	overflow: hidden; 
+	}
+
+div#slider figure img {
+	width: 20%; 
+	float: left; 
+	}
+	
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite; 
+}
+
+	
+.grid {
+	height: auto;
+	margin-left: 50px;
+	float: none;
+	}
+	
+.box a{
+	height: 100%;
+	overflow: hidden;
+	margin: 20px;
+	top: 1px;
+	bottom: 100px;
+	position: relative;
+	float: left;
+	text-decoration: none;
+	color: black;
+	}
+	
+.box h4 {
+	position: absolute;
+	text-align: left;
+	margin: 20px;
+	margin-top: 220px;
+	text-decoration: none;
+	font-family: 'Armata';
+	font-size: 11px;
+	transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+	}
+	
+	
+.fade {
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+   }
+
+.fade:hover {
+    opacity: 0.5;
+    }
+	
+.box a:hover {
+	background-color: white; 
+  	}
+	
+		
+.about img {
+	margin-top:15px;
+	width: 100%;
+	}
+	
+
+			
+.abouttext {
+	font-size: 11pt;
+	width: 60%;
+	margin:auto;
+	margin-bottom: 20px;
+	}
+
+.about b{
+	font-size: 20px;
+	font-family:'Armata';
+	}	
+				
+	
+.copyright { 
+	height: 55px;
+	width: 100%;
+	background-color:black;
+	font-size: 7pt;
+	color: white;
+	text-align: center;
+	bottom: 0;
+	position: fixed;
+	}
+	
+.copyright img{
+	margin-top: 5px;
+	height: 25px;
+	width: 25px;
+	}
+	
+.contact {
+	width: 650px;
+	margin: 40px;
+	}
+
+.contact b {
+	font-family: 'Armata';
+	color: #40e0d0;
+	}
+	
+.row {
+	font-family: 'Armata';
+	margin: 1px;
+	margin-top: 15px;
+	}
+	
+label {
+	margin: 5px;
+	}
+	
+.content {
+	margin: 5px;
+	width: 100%;
+	height: 100%;
+	}
+
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	}	
+
+.projectnav {
+	width: 100%;
+	height: 70px;
+	float: right;
+	margin-right: 1%;
+	}
+	
+.projectnav a {
+	color: black;
+	padding: 20px;
+	margin-top: 10px;
+	float: right;
+	text-decoration: none;
+	}
+	
+.projectnav b {	
+	font-family: 'Armata';
+	text-decoration: underline;
+	color: #40e0d0;
+	}
+	
+.projectnav a:hover {
+	 color: #40e0d0;
+	}
+	
+.projecttext {
+	width: 30%;
+	margin: 50px;
+	padding: 5px;
+	top: 5px;
+	
+	}
+
+	
+.projectphoto { 
+	width: 80%;
+	height: 100%;
+	position: relative;
+	background-color: black;
+	margin: auto;
+	}	
+	
+.projectphoto img {
+	width: 95%;
+	height: 95%;
+	margin: auto;
+	padding: 25px;
+	}
+	
